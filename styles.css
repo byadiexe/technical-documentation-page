@@ -83,3 +83,38 @@ header {
   padding-bottom: 1rem;
   font-style: italic;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+
+  #navbar {
+    background-color: var(--text);
+    padding: 2rem;
+    width: 100%;
+    max-height: 200px;
+    z-index: 1;
+    border-bottom: var(--accent) solid 0.5rem;
+    border-radius: 0;
+  }
+
+  #navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #navbar,
+  a::before {
+    content: ".";
+  }
+
+  #navbar a {
+    font-size: 1.25rem;
+  }
+
+  .sections {
+    /* position: relative; */
+    margin: auto;
+    margin-top: 10rem;
+  }
+}
