@@ -119,6 +119,7 @@ header:hover {
     z-index: 1;
     border-bottom: var(--accent) solid 0.5rem;
     border-radius: 0;
+    border-right: none;
   }
 
   #navbar ul {
@@ -133,6 +134,11 @@ header:hover {
 
   #navbar a {
     font-size: 1.25rem;
+  }
+
+  #navbar a:hover {
+    font-size: 1.3rem;
+    transition: 500ms;
   }
 
   .sections {
